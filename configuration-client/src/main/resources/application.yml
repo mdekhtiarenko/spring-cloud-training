@@ -1,0 +1,12 @@
+server:
+  port: 8002
+
+spring:
+#  profiles:
+#    active: rude
+  config:
+    import: configserver:http://localhost:8001
+
+  application:
+    name: configuration-client
+
