@@ -10,7 +10,15 @@
 	
     <modules>
         <module>configuration-server</module>
+        <module>discovery-server</module>
         <module>configuration-client</module>
+
+		<module>services/adjective-service</module>
+        <module>services/subject-service</module>
+        <module>services/verb-service</module>
+        <module>services/article-service</module>
+        <module>services/noun-service</module>
+        <module>services/sentence-service</module>
     </modules>
 
 </project>

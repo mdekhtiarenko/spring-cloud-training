@@ -1,0 +1,14 @@
+server:
+  port: 5050
+
+spring:
+  application:
+    name: discovery-server
+
+eureka:
+#  setting for the localhost to disable replicas
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+  server:
+    max-threads-for-peer-replication: 0
